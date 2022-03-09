@@ -6,6 +6,10 @@
 }
 
 /* COMMON */
+
+html{
+    font-family: "Whitney" , sans-serif;   
+}
 .clearfix::after{
     content:"";
     display:table;
@@ -15,34 +19,97 @@
 .container{
     width:80%;
     margin:0 auto;
-    background-color: aqua;
 
+}
+
+ .col{
+    float:left;
+    /* height:60px; */
+    line-height:60px;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* HEADER */
 
-.nav{
-    height:60px;
-    background-color: yellow;
-    /* border: 2px solid black; */
-    text-align:center;
+ header{ 
+    height:60px; 
+    background-color:#3161e0;
+    /* border: 2px solid black;  */
+    font-weight:bold;
 }
 
-.col{
-    float:left;
-    height:60px;
+.header-nav{
+    line-height:60px;
+    color:white;
 }
 
-.col-logo{
+/* BUTTONS */
+
+.button-small{
+    padding:10px;
+    border: 2px solid black;
+    border-radius:50px;
+    background-color: white;
+    color:black;
+}
+
+.button-big{
+
+}
+
+.button-white{
+
+}
+
+.button-dark{
+
+}
+
+
+/* nav logo */
+
+.nav-logo{
     width:20%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
-.col-center{
+.nav-logo img{
+    vertical-align: middle;
+}
+
+/* nav center */
+
+.nav-center{
     width:60%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    text-align: center;
 }
 
-.col-btm{
-    width:20%;
+.nav-center ul{
+    list-style: none;
 }
+
+
+header li a{
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+    color:inherit;
+}
+
+
+/* nav bottom */
+
+.nav-btm{
+    width:20%;
+    vertical-align: middle;
+    text-align: center;
+} 
+
+ 
+
+
+
