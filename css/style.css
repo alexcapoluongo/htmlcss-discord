@@ -10,6 +10,7 @@
 html{
     font-family: "Whitney" , sans-serif;   
 }
+
 .clearfix::after{
     content:"";
     display:table;
@@ -32,6 +33,14 @@ a{
     text-decoration: none;
 }
 
+.container h1{
+    font-size: 3em;
+    margin-bottom:1em;
+}
+
+.container p{
+    font-size: 1.3em;
+}
 /* HEADER */
 
  header{ 
@@ -47,25 +56,32 @@ a{
 }
 
 /* BUTTONS */
+.button{
+    margin-top:2em;
+}
 
 .button-small{
     padding:10px;
-    border: 2px solid black;
-    border-radius:50px;
-    background-color: white;
-    color:black;
+
 }
 
 .button-big{
-
+    font-size: 1.3em;
+    padding:10px 20px;
 }
 
+
 .button-white{
+    border-radius:50px;
+    background-color: white;
+    color:black;
 
 }
 
 .button-dark{
-
+    border-radius:50px;
+    background-color: #23272a;
+    color:white;
 }
 
 
@@ -111,5 +127,20 @@ header li a{
 
  
 
+/* MAIN */
 
+.jumpotron{  
+    background-image:url(../img/jumbo.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:100px;
+}
+
+.content-jumpotron{
+    padding:50px;
+    text-align: center;
+    margin:auto;
+    color:white;
+}
 
