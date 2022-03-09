@@ -129,6 +129,8 @@ header li a{
 
 /* MAIN */
 
+/* jumpotron */
+
 .jumpotron{  
     background-image:url(../img/jumbo.png);
     background-position: center;
@@ -144,3 +146,24 @@ header li a{
     color:white;
 }
 
+/* advantage */
+
+.advantage{
+}
+
+.col-img{
+    width:60%;
+    background-color: aqua;
+    /* height:100px; */
+    display:inline-block;
+}
+
+.col-img img{
+    width:100%;
+}
+.col-text{
+    width:40%;
+    background-color: aquamarine;
+    /* height:100px; */
+    float:right;
+}
