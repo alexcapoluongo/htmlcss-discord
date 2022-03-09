@@ -162,8 +162,8 @@ ul{
 .advantage{
     height:100vh;
     width:100%;
-    position: relative;
 }
+
 .content-advantage{
     padding-top: 200px;
 }
@@ -187,5 +187,13 @@ ul{
     width:40%;
     float:left;
     text-align:left;
+}
+
+/* last item */
+
+.last-item{
+    text-align: center;
+    height:300px;
+    padding-top:100px;
 }
 
