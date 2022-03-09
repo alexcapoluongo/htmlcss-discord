@@ -1,3 +1,48 @@
-body{
-    background-color:red;
+/* RESET */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+    background-color: aqua;
+
+}
+
+/* HEADER */
+
+.nav{
+    height:60px;
+    background-color: yellow;
+    /* border: 2px solid black; */
+    text-align:center;
+}
+
+.col{
+    float:left;
+    height:60px;
+}
+
+.col-logo{
+    width:20%;
+    background-color: blue;
+}
+
+.col-center{
+    width:60%;
+    background-color: aquamarine;
+}
+
+.col-btm{
+    width:20%;
 }
