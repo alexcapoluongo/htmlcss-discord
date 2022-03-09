@@ -115,12 +115,18 @@ a{
 
 
 header li a{
-    float:left;
     padding-left:20px;
     padding-right:20px;
     color:inherit;
 }
 
+header li{
+    float:left;
+}
+
+ul{
+    display:inline-block;
+}
 
 /* nav bottom */
 
@@ -159,21 +165,12 @@ header li a{
     position: relative;
 }
 .content-advantage{
-    /* width:80%;
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%, -50%); */
-    margin-top: 100px;
-    margin-left:auto;
-    margin-right:auto;
-    padding:200px;
+    padding-top: 200px;
 }
 
 .col-img{
     display:inline-block;
     width:60%;
-
 }
 
 .col-img img{
@@ -185,3 +182,10 @@ header li a{
     float:right;
     text-align:left;
 }
+
+.col-text-left{
+    width:40%;
+    float:left;
+    text-align:left;
+}
+
