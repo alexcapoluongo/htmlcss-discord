@@ -197,3 +197,13 @@ ul{
     padding-top:100px;
 }
 
+/* footer */
+footer{
+    background-color: #23272a;
+    color:white;
+    
+}
+footer ul{
+    display:inline-block;
+    float:left;
+}
